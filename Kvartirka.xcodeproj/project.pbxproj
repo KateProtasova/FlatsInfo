@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB4CB62DDC48031375EDEE1 /* Pods_Kvartirka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9781D5FBAE07CDF48EBA48D1 /* Pods_Kvartirka.framework */; };
 		B658333224934C1E00CB0C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658333124934C1E00CB0C7E /* AppDelegate.swift */; };
 		B658333424934C1E00CB0C7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658333324934C1E00CB0C7E /* SceneDelegate.swift */; };
-		B658333624934C1E00CB0C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658333524934C1E00CB0C7E /* ViewController.swift */; };
+		B658333624934C1E00CB0C7E /* FlatsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658333524934C1E00CB0C7E /* FlatsListViewController.swift */; };
 		B658333924934C1E00CB0C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B658333724934C1E00CB0C7E /* Main.storyboard */; };
 		B658333B24934C2200CB0C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B658333A24934C2200CB0C7E /* Assets.xcassets */; };
 		B658333E24934C2200CB0C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B658333C24934C2200CB0C7E /* LaunchScreen.storyboard */; };
+		B65833462493570000CB0C7E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65833452493570000CB0C7E /* NetworkManager.swift */; };
+		B65833482493581B00CB0C7E /* FlatsRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65833472493581B00CB0C7E /* FlatsRoot.swift */; };
+		B65833512493697D00CB0C7E /* FlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658334F2493697D00CB0C7E /* FlatCell.swift */; };
+		B65833522493697D00CB0C7E /* FlatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65833502493697D00CB0C7E /* FlatCell.xib */; };
+		B65833542497387A00CB0C7E /* DetailsFlatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65833532497387A00CB0C7E /* DetailsFlatViewController.swift */; };
+		B658335D2497AB8600CB0C7E /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658335C2497AB8600CB0C7E /* LocationService.swift */; };
+		B6825ADC249A046300895804 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825ADB249A046300895804 /* NetworkError.swift */; };
+		B6825ADE249B141B00895804 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825ADD249B141B00895804 /* UIViewController.swift */; };
+		B6825AE1249B164B00895804 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AE0249B164B00895804 /* Constants.swift */; };
+		B6825AE3249B1F6300895804 /* FlatsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AE2249B1F6300895804 /* FlatsListViewModel.swift */; };
+		B6825AE9249DE39A00895804 /* Flat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AE8249DE39A00895804 /* Flat.swift */; };
+		B6825AEB249DE43F00895804 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AEA249DE43F00895804 /* UserLocation.swift */; };
+		B6825AED249DE49200895804 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AEC249DE49200895804 /* Cities.swift */; };
+		B6825AEF249DE4BB00895804 /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AEE249DE4BB00895804 /* Prices.swift */; };
+		B6825AF1249DE4F000895804 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AF0249DE4F000895804 /* City.swift */; };
+		B6825AF3249DE52D00895804 /* PhotoDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AF2249DE52D00895804 /* PhotoDefault.swift */; };
+		B6825AF5249DE55000895804 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6825AF4249DE55000895804 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B658332E24934C1E00CB0C7E /* Kvartirka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kvartirka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC5645F955686DF27D7B17A /* Pods-Kvartirka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kvartirka.release.xcconfig"; path = "Target Support Files/Pods-Kvartirka/Pods-Kvartirka.release.xcconfig"; sourceTree = "<group>"; };
+		9781D5FBAE07CDF48EBA48D1 /* Pods_Kvartirka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kvartirka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B658332E24934C1E00CB0C7E /* Kvartirka12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kvartirka12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B658333124934C1E00CB0C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B658333324934C1E00CB0C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B658333524934C1E00CB0C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B658333524934C1E00CB0C7E /* FlatsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatsListViewController.swift; sourceTree = "<group>"; };
 		B658333824934C1E00CB0C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B658333A24934C2200CB0C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B658333D24934C2200CB0C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B658333F24934C2200CB0C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65833452493570000CB0C7E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B65833472493581B00CB0C7E /* FlatsRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatsRoot.swift; sourceTree = "<group>"; };
+		B658334F2493697D00CB0C7E /* FlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatCell.swift; sourceTree = "<group>"; };
+		B65833502493697D00CB0C7E /* FlatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlatCell.xib; sourceTree = "<group>"; };
+		B65833532497387A00CB0C7E /* DetailsFlatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFlatViewController.swift; sourceTree = "<group>"; };
+		B658335C2497AB8600CB0C7E /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		B6825ADB249A046300895804 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		B6825ADD249B141B00895804 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B6825AE0249B164B00895804 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6825AE2249B1F6300895804 /* FlatsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatsListViewModel.swift; sourceTree = "<group>"; };
+		B6825AE8249DE39A00895804 /* Flat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flat.swift; sourceTree = "<group>"; };
+		B6825AEA249DE43F00895804 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		B6825AEC249DE49200895804 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		B6825AEE249DE4BB00895804 /* Prices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prices.swift; sourceTree = "<group>"; };
+		B6825AF0249DE4F000895804 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		B6825AF2249DE52D00895804 /* PhotoDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDefault.swift; sourceTree = "<group>"; };
+		B6825AF4249DE55000895804 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E059DC6C10F88565901BA652 /* Pods-Kvartirka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kvartirka.debug.xcconfig"; path = "Target Support Files/Pods-Kvartirka/Pods-Kvartirka.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +69,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB4CB62DDC48031375EDEE1 /* Pods_Kvartirka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0E3FFFB9257B17D8B5C8A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9781D5FBAE07CDF48EBA48D1 /* Pods_Kvartirka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B658332524934C1E00CB0C7E = {
 			isa = PBXGroup;
 			children = (
 				B658333024934C1E00CB0C7E /* Kvartirka */,
 				B658332F24934C1E00CB0C7E /* Products */,
+				C38CF36B97F11BB721CD99EE /* Pods */,
+				A0E3FFFB9257B17D8B5C8A3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B658332F24934C1E00CB0C7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B658332E24934C1E00CB0C7E /* Kvartirka.app */,
+				B658332E24934C1E00CB0C7E /* Kvartirka12.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +105,105 @@
 		B658333024934C1E00CB0C7E /* Kvartirka */ = {
 			isa = PBXGroup;
 			children = (
-				B658333124934C1E00CB0C7E /* AppDelegate.swift */,
-				B658333324934C1E00CB0C7E /* SceneDelegate.swift */,
-				B658333524934C1E00CB0C7E /* ViewController.swift */,
+				B65833492493680D00CB0C7E /* DomainModels */,
+				B658334A2493681800CB0C7E /* Controllers */,
+				B658334C2493684D00CB0C7E /* Services */,
+				B6825ADF249B142200895804 /* Extensions */,
+				B658334D2493687F00CB0C7E /* Supporting Files */,
 				B658333724934C1E00CB0C7E /* Main.storyboard */,
 				B658333A24934C2200CB0C7E /* Assets.xcassets */,
-				B658333C24934C2200CB0C7E /* LaunchScreen.storyboard */,
 				B658333F24934C2200CB0C7E /* Info.plist */,
 			);
 			path = Kvartirka;
+			sourceTree = "<group>";
+		};
+		B65833492493680D00CB0C7E /* DomainModels */ = {
+			isa = PBXGroup;
+			children = (
+				B65833472493581B00CB0C7E /* FlatsRoot.swift */,
+				B6825AF4249DE55000895804 /* Photo.swift */,
+				B6825AF2249DE52D00895804 /* PhotoDefault.swift */,
+				B6825AEC249DE49200895804 /* Cities.swift */,
+				B6825AE8249DE39A00895804 /* Flat.swift */,
+				B6825AEA249DE43F00895804 /* UserLocation.swift */,
+				B6825AEE249DE4BB00895804 /* Prices.swift */,
+				B6825AF0249DE4F000895804 /* City.swift */,
+			);
+			path = DomainModels;
+			sourceTree = "<group>";
+		};
+		B658334A2493681800CB0C7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B65833552497388900CB0C7E /* FlatsViewController */,
+				B6583356249766A000CB0C7E /* DetailsFlatViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B658334C2493684D00CB0C7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B65833452493570000CB0C7E /* NetworkManager.swift */,
+				B658335C2497AB8600CB0C7E /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B658334D2493687F00CB0C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6825ADB249A046300895804 /* NetworkError.swift */,
+				B6825AE0249B164B00895804 /* Constants.swift */,
+				B658333124934C1E00CB0C7E /* AppDelegate.swift */,
+				B658333324934C1E00CB0C7E /* SceneDelegate.swift */,
+				B658333C24934C2200CB0C7E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B658334E2493695700CB0C7E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B658334F2493697D00CB0C7E /* FlatCell.swift */,
+				B65833502493697D00CB0C7E /* FlatCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B65833552497388900CB0C7E /* FlatsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6825AE2249B1F6300895804 /* FlatsListViewModel.swift */,
+				B658333524934C1E00CB0C7E /* FlatsListViewController.swift */,
+				B658334E2493695700CB0C7E /* Cell */,
+			);
+			path = FlatsViewController;
+			sourceTree = "<group>";
+		};
+		B6583356249766A000CB0C7E /* DetailsFlatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65833532497387A00CB0C7E /* DetailsFlatViewController.swift */,
+			);
+			path = DetailsFlatViewController;
+			sourceTree = "<group>";
+		};
+		B6825ADF249B142200895804 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6825ADD249B141B00895804 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C38CF36B97F11BB721CD99EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E059DC6C10F88565901BA652 /* Pods-Kvartirka.debug.xcconfig */,
+				7AC5645F955686DF27D7B17A /* Pods-Kvartirka.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B658334224934C2200CB0C7E /* Build configuration list for PBXNativeTarget "Kvartirka" */;
 			buildPhases = (
+				7DF68A7352E512FD261B3540 /* [CP] Check Pods Manifest.lock */,
 				B658332A24934C1E00CB0C7E /* Sources */,
 				B658332B24934C1E00CB0C7E /* Frameworks */,
 				B658332C24934C1E00CB0C7E /* Resources */,
+				89A60213272ADC09AE9D1EC7 /* [CP] Embed Pods Frameworks */,
+				B6825AE5249B939C00895804 /* SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -84,7 +226,7 @@
 			);
 			name = Kvartirka;
 			productName = Kvartirka;
-			productReference = B658332E24934C1E00CB0C7E /* Kvartirka.app */;
+			productReference = B658332E24934C1E00CB0C7E /* Kvartirka12.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65833522493697D00CB0C7E /* FlatCell.xib in Resources */,
 				B658333E24934C2200CB0C7E /* LaunchScreen.storyboard in Resources */,
 				B658333B24934C2200CB0C7E /* Assets.xcassets in Resources */,
 				B658333924934C1E00CB0C7E /* Main.storyboard in Resources */,
@@ -133,13 +276,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DF68A7352E512FD261B3540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kvartirka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A60213272ADC09AE9D1EC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kvartirka/Pods-Kvartirka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kvartirka/Pods-Kvartirka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kvartirka/Pods-Kvartirka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6825AE5249B939C00895804 /* SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B658332A24934C1E00CB0C7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B658333624934C1E00CB0C7E /* ViewController.swift in Sources */,
+				B65833512493697D00CB0C7E /* FlatCell.swift in Sources */,
+				B6825AE1249B164B00895804 /* Constants.swift in Sources */,
+				B65833542497387A00CB0C7E /* DetailsFlatViewController.swift in Sources */,
+				B658335D2497AB8600CB0C7E /* LocationService.swift in Sources */,
+				B65833462493570000CB0C7E /* NetworkManager.swift in Sources */,
+				B6825AEB249DE43F00895804 /* UserLocation.swift in Sources */,
+				B6825AED249DE49200895804 /* Cities.swift in Sources */,
+				B6825ADE249B141B00895804 /* UIViewController.swift in Sources */,
+				B658333624934C1E00CB0C7E /* FlatsListViewController.swift in Sources */,
+				B6825AF1249DE4F000895804 /* City.swift in Sources */,
 				B658333224934C1E00CB0C7E /* AppDelegate.swift in Sources */,
+				B6825ADC249A046300895804 /* NetworkError.swift in Sources */,
+				B6825AF5249DE55000895804 /* Photo.swift in Sources */,
+				B6825AE3249B1F6300895804 /* FlatsListViewModel.swift in Sources */,
+				B6825AE9249DE39A00895804 /* Flat.swift in Sources */,
+				B6825AF3249DE52D00895804 /* PhotoDefault.swift in Sources */,
+				B6825AEF249DE4BB00895804 /* Prices.swift in Sources */,
+				B65833482493581B00CB0C7E /* FlatsRoot.swift in Sources */,
 				B658333424934C1E00CB0C7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +501,7 @@
 		};
 		B658334324934C2200CB0C7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E059DC6C10F88565901BA652 /* Pods-Kvartirka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,15 +511,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.EP.Kvartirka;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EP.Kvartirka12;
+				PRODUCT_NAME = Kvartirka12;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B658334424934C2200CB0C7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC5645F955686DF27D7B17A /* Pods-Kvartirka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,10 +530,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.EP.Kvartirka;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EP.Kvartirka12;
+				PRODUCT_NAME = Kvartirka12;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
